@@ -1,0 +1,172 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+consensusBenchmarks is a Catch v2.9.1 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+ddh_dvrf_functions
+-------------------------------------------------------------------------------
+/Users/easwarvivek/research-dvrf/lib/benchmarks/src/ddh_benchmarks.cpp:28
+...............................................................................
+
+benchmark name                                  samples       iterations    estimated
+                                                mean          low mean      high mean
+                                                std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Partial Eval                                            100            1   25.6549 ms 
+                                                 258.653 us   255.322 us   264.118 us 
+                                                  21.368 us    14.738 us     31.18 us 
+                                                                                      
+Combine l_50                                            100            1    1.26026 s 
+                                                 12.2788 ms   12.2522 ms   12.3191 ms 
+                                                 164.642 us   116.172 us   244.393 us 
+                                                                                      
+Combine l_100                                           100            1    2.64087 s 
+                                                 24.6045 ms   24.5066 ms   24.8103 ms 
+                                                 688.822 us   345.228 us    1.1573 ms 
+                                                                                      
+Combine l_200                                           100            1    5.10318 s 
+                                                 53.3256 ms   51.6714 ms   58.1737 ms 
+                                                 13.1626 ms   5.61089 ms   28.3612 ms 
+                                                                                      
+
+-------------------------------------------------------------------------------
+dfinity_dvrf_functions - CryptoMcl
+-------------------------------------------------------------------------------
+/Users/easwarvivek/research-dvrf/lib/benchmarks/src/dfinity_benchmarks.cpp:30
+...............................................................................
+
+benchmark name                                  samples       iterations    estimated
+                                                mean          low mean      high mean
+                                                std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Partial Eval                                            100            1    8.1611 ms 
+                                                   98.89 us    96.162 us    102.09 us 
+                                                  15.104 us    13.036 us    18.057 us 
+                                                                                      
+Combine l_50                                            100            1    2.00158 s 
+                                                 20.4671 ms   20.3785 ms   20.5705 ms 
+                                                  490.35 us   429.107 us   619.839 us 
+                                                                                      
+Combine l_100                                           100            1    3.93573 s 
+                                                 40.6926 ms   40.4443 ms   41.0102 ms 
+                                                 1.42293 ms    1.1509 ms   1.78339 ms 
+                                                                                      
+Combine l_200                                           100            1    7.87194 s 
+                                                 79.8906 ms   79.5897 ms   80.2359 ms 
+                                                 1.64727 ms   1.46153 ms   1.93848 ms 
+                                                                                      
+
+-------------------------------------------------------------------------------
+dfinity_dvrf_functions - CryptoRelic
+-------------------------------------------------------------------------------
+/Users/easwarvivek/research-dvrf/lib/benchmarks/src/dfinity_benchmarks.cpp:30
+...............................................................................
+
+benchmark name                                  samples       iterations    estimated
+                                                mean          low mean      high mean
+                                                std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Partial Eval                                            100            1   44.2509 ms 
+                                                 471.468 us   465.747 us   477.465 us 
+                                                  29.818 us    26.687 us    34.085 us 
+                                                                                      
+Combine l_50                                            100            1     25.847 s 
+                                                  256.85 ms   256.472 ms   257.503 ms 
+                                                 2.46294 ms   1.68823 ms   4.26054 ms 
+                                                                                      
+Combine l_100                                           100            1     51.351 s 
+                                                 516.605 ms   516.025 ms   517.437 ms 
+                                                 3.50034 ms   2.69341 ms    5.4796 ms 
+                                                                                      
+Combine l_200                                           100            1    1.73463 m 
+                                                  1.04132 s    1.03915 s    1.04469 s 
+                                                 13.5959 ms   9.83135 ms   18.9024 ms 
+                                                                                      
+
+-------------------------------------------------------------------------------
+glow_dvrf_functions - CryptoMcl
+-------------------------------------------------------------------------------
+/Users/easwarvivek/research-dvrf/lib/benchmarks/src/glow_benchmarks.cpp:30
+...............................................................................
+
+benchmark name                                  samples       iterations    estimated
+                                                mean          low mean      high mean
+                                                std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Partial Eval                                            100            1   25.9945 ms 
+                                                 260.543 us   254.462 us   267.353 us 
+                                                  32.662 us    29.276 us    38.502 us 
+                                                                                      
+
+-------------------------------------------------------------------------------
+glow_dvrf_functions - CryptoRelic
+-------------------------------------------------------------------------------
+/Users/easwarvivek/research-dvrf/lib/benchmarks/src/glow_benchmarks.cpp:30
+...............................................................................
+
+benchmark name                                  samples       iterations    estimated
+                                                mean          low mean      high mean
+                                                std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Partial Eval                                            100            1   127.378 ms 
+                                                 1.31166 ms   1.29795 ms   1.32965 ms 
+                                                  79.776 us    64.307 us   122.544 us 
+                                                                                      
+
+===============================================================================
+test cases: 5 | 5 passed
+assertions: - none -
+
+BLS12
+Filters: glow_dvrf_functions - CryptoMcl
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+consensusBenchmarks is a Catch v2.9.1 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+glow_dvrf_functions - CryptoMcl
+-------------------------------------------------------------------------------
+/Users/easwarvivek/research-dvrf/lib/benchmarks/src/glow_benchmarks.cpp:30
+...............................................................................
+
+benchmark name                                  samples       iterations    estimated
+                                                mean          low mean      high mean
+                                                std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Partial Eval                                            100            1    2.34212 s 
+                                                 25.3754 ms    24.122 ms    28.517 ms 
+                                                 9.42867 ms   4.23322 ms   17.6236 ms 
+                                                                                      
+
+===============================================================================
+test cases: 1 | 1 passed
+assertions: - none -
+
+BN384
+Filters: glow_dvrf_functions - CryptoMcl
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+consensusBenchmarks is a Catch v2.9.1 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+glow_dvrf_functions - CryptoMcl
+-------------------------------------------------------------------------------
+/Users/easwarvivek/research-dvrf/lib/benchmarks/src/glow_benchmarks.cpp:30
+...............................................................................
+
+benchmark name                                  samples       iterations    estimated
+                                                mean          low mean      high mean
+                                                std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Partial Eval                                            100            1    4.27651 s 
+                                                 42.5168 ms   42.3851 ms   42.6798 ms 
+                                                 742.684 us   607.353 us   1.00389 ms 
+                                                                                      
+
+===============================================================================
+test cases: 1 | 1 passed
+assertions: - none -
+

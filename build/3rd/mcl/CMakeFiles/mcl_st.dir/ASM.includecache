@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/easwarvivek/research-dvrf/3rd/mcl/src/asm/x86-64mac.bmi2.s
+
+/Users/easwarvivek/research-dvrf/3rd/mcl/src/asm/x86-64mac.s
+
